@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a9def9;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aviso-paisagem {
+  display: none;
+}
+
+/* Elementos de fundo */
+#backgroundStart {
+  background: url("imagens/planetaMetade.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+
+/* Texto e parágrafos */
+p {
+  background-color: #d4eaf7;
+  color: #48cae4;
+  font-weight: 600;
+  border-radius: 10px;
+  max-width: 90%;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#start h2 {
+  color: #48cae4;
+  font-weight: 900;
+  background-color: #d4eaf7;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 80%;
+}
+
+/* Barras */
+#containerBar {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.barra-label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.barra-container {
+  width: 150px;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.barra-preenchida {
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.barra-porcentagem {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Botões */
+.btnGame {
+  background: linear-gradient(to right, #a9def9, #d0f4de);
+  color: #48cae4;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  width: 90px;
+  height: 35px;
+  font-size: 14px;
+  transition: transform 0.2s ease;
+  margin: 0.5rem;
+}
+
+.btnGame:hover {
+  cursor: pointer;
+  color: #0077b6;
+  transform: scale(0.95);
+}
+
+/* Imagens */
+.imgGame {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 20px;
+  margin: 2rem 0;
+}
+
+.fonteImg {
+  background-color: #d4eaf7;
+  color: #48cae4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.75rem;
+}
+
+/* Botões e opções por capítulos */
+.capitulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Parágrafos de resultado */
+.paragrafoResult {
+  position: relative;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.imgResult {
+  margin-top: 2rem;
+  max-width: 90%;
+  height: auto;
+}
+
+/* Alerta em modo retrato */
+@media screen and (orientation: portrait) {
+  .aviso-paisagem {
+    display: block;
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 1.125rem;
+  }
+
+  .conteudo {
+    display: none;
+  }
+}
+
+/* Layout geral para telas maiores */
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+
+  #start h2 {
+    font-size: 1.5rem;
+  }
+
+  .btnGame {
+    font-size: 1rem;
+    width: 100px;
+    height: 40px;
+  }
+}
