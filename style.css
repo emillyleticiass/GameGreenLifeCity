@@ -243,7 +243,7 @@ p {
 @media screen and (orientation: portrait) and (max-width: 440px) {
   .aviso-paisagem {
     display: block;
-    background: orange;
+    background: #0077b6;
     color: white;
     text-align: center;
     padding: 20px;
