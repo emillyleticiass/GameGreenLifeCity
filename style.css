@@ -240,7 +240,7 @@ p {
   margin-top: 100px;
 }
 
-@media screen and (orientation: portrait) and (max-width: 440px) {
+@media screen and (orientation: portrait) and (max-width: 440px) and (min-height: 568px) {
   .aviso-paisagem {
     display: block;
     background: #0077b6;
