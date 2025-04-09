@@ -255,7 +255,7 @@ p {
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 440px) and (min-height: 568px) {
+@media screen and (orientation: landscape) and (max-width: 956px) and (min-height: 320px) {
   .aviso-paisagem {
     display: none;
   }
