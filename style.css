@@ -236,7 +236,7 @@ p {
   margin-top: 100px;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 440px) {
   .aviso-paisagem {
     display: block;
     background: orange;
