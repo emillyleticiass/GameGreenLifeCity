@@ -250,8 +250,8 @@ p {
     background: #0077b6;
     color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 18px;
+    padding: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .conteudo {
@@ -271,8 +271,8 @@ p {
   #start h2 {
     width: 9.688rem;
     height: 3.125rem;
-    font-size: 22px;
-    padding-left: 12px;
+    font-size: 1.375rem;
+    padding-left: 0.75rem;
   }
 
   p {
@@ -281,146 +281,146 @@ p {
 
   #containerBar {
     position: absolute;
-    left: 470px;
-    top: 17px;
+    left: 29.375rem;
+    top: 1.063rem;
   }
 
   #btnChapter1 {
     position: absolute;
-    top: 130px;
+    top: 8.125rem;
   }
 
   .imgGame {
     width: 30rem;
     height: 12rem;
-    margin-top: 1px;
+    margin-top: 0.063rem;
   }
 
   #btnOp1Cap1 {
     position: absolute;
-    top: 260px;
+    top: 16.25rem;
   }
 
   #btnOp2Cap1 {
     position: absolute;
-    top: 260px;
+    top: 16.25rem;
   }
 
   #imgOption2Cap1 {
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
 
   #imgChapter1 {
-    margin-top: 35px;
+    margin-top: 2.188rem;
   }
 
   #btnChapter2Op1 {
     position: absolute;
-    top: 130px;
+    top: 8.125rem;
   }
 
   #btnChapter2Op2 {
     position: absolute;
-    top: 95px;
+    top: 5.938rem;
   }
 
   #btnOp1Cap2 {
     position: absolute;
-    top: 165px;
+    top: 10.313rem;
   }
 
   #imgOption1Cap2 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   #btnOp2Cap2 {
     position: absolute;
-    top: 165px;
+    top: 10.313rem;
   }
 
   #imgOption2Cap2 {
-    margin-top: 25px;
+    margin-top: 1.563rem;
   }
 
   #imgChapter2 {
-    margin-top: 27px;
+    margin-top: 1.688rem;
   }
 
   #btnChapter3Op1 {
     position: absolute;
-    top: 95px;
+    top: 1.688rem;
   }
 
   #btnChapter3Op2 {
     position: absolute;
-    top: 75px;
+    top: 4.688rem;
   }
 
   #btnOp1Cap3 {
     position: absolute;
-    top: 150px;
+    top: 9.375rem;
   }
 
   #btnOp2Cap3 {
     position: absolute;
-    top: 150px;
+    top: 9.375rem;
   }
 
   #imgChapter3 {
-    margin-top: 29px;
+    margin-top: 1.813rem;
   }
 
   #btnChapter4Op1 {
     position: absolute;
-    top: 75px;
+    top: 4.688rem;
   }
 
   #btnChapter4Op2 {
     position: absolute;
-    top: 75px;
+    top: 4.688rem;
   }
 
   #imgOption1Cap3 {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   #imgOption2Cap3 {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   #btnOp1Cap4 {
     position: absolute;
-    top: 185px;
+    top: 11.563rem;
   }
 
   #imgOption1Cap4 {
-    margin-top: 25px;
+    margin-top: 1.563rem;
   }
 
   #btnOp2Cap4 {
     position: absolute;
-    top: 185px;
+    top: 11.563rem;
   }
 
   #imgOption2Cap4 {
-    margin-top: 25px;
+    margin-top: 1.563rem;
   }
 
   #imgChapter4 {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   #btnFinalOp1 {
     position: absolute;
-    top: 75px;
+    top: 4.688rem;
   }
 
   #btnFinalOp2 {
     position: absolute;
-    top: 75px;
+    top: 4.688rem;
   }
 
   .imgResult {
-    margin-top: 120px;
+    margin-top: 7.5rem;
   }
 }
