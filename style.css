@@ -166,7 +166,7 @@ p {
 }
 
 /* Layout geral para telas maiores */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1000px) {
   .container {
     padding: 2rem;
   }
