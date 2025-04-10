@@ -13,7 +13,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 2400px) and (max-height: 1100px) {
+
   /* .conteudo {
     width: 100%;
     max-width: 1000px;
@@ -243,7 +243,7 @@ body {
   .imgResult {
     margin-top: 1%;
   }
-}
+
 
 @media screen and (orientation: portrait) {
   .aviso-paisagem {
