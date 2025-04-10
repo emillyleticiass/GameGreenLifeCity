@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a9def9;
+  font-family: sans-serif;
+}
+
+.aviso-paisagem {
+  display: none;
+}
+
+@media screen and (max-width: 2400px) and (max-height: 1100px) {
+  /* .conteudo {
+    width: 100%;
+    max-width: 1000px;
+  } */
+
+  p {
+    background-color: #d4eaf7;
+    color: #48cae4;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 60%;
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    margin-left: 0.315rem;
+  }
+
+  #containerBar {
+    width: 100%;
+    margin-top: 1%;
+    margin-right: -5%;
+    position: absolute;
+    top: 0.94rem;
+    right: -30rem;
+  }
+
+  .barra-label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  .barra-container {
+    width: 150px;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px 0;
+    vertical-align: middle;
+  }
+
+  .barra-preenchida {
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+  }
+
+  .barra-porcentagem {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #backgroundStart {
+    background: url("imagens/planetaMetade.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+  }
+
+  #title {
+    background-color: #d4eaf7;
+    padding-top: 0.5rem;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 8px;
+    max-width: 220px;
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  #title h2 {
+    color: #48cae4;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btnGame {
+    background: linear-gradient(to right, #a9def9, #d0f4de);
+    color: #48cae4;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    transition: transform 0.2s ease;
+  }
+
+  .btnGame:hover {
+    cursor: pointer;
+    color: #0077b6;
+    transform: scale(0.9);
+  }
+
+  #btnIniciar {
+    background: linear-gradient(to right, #a9def9, #d0f4de);
+    color: #48cae4;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  #btnChapter1 {
+    margin-top: 0.5%;
+    margin-left: 1%;
+  }
+
+  #btnOp1Cap1 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp2Cap1 {
+    margin-left: 1%;
+  }
+
+  #btnChapter2Op1 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnChapter2Op2 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp1Cap2 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp2Cap2 {
+    margin-left: 1%;
+  }
+
+  #btnChapter3Op1 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnChapter3Op2 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp1Cap3 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp2Cap3 {
+    margin-left: 1%;
+  }
+
+  #btnChapter4Op1 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnChapter4Op2 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp1Cap4 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnOp2Cap4 {
+    margin-left: 1%;
+  }
+
+  #btnFinalOp1 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #btnFinalOp2 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  .imgGame {
+    display: flex;
+    justify-self: center;
+    width: 40rem;
+    height: 15rem;
+    border-radius: 20px;
+    margin-top: 35px;
+  }
+
+  .fonteImg {
+    background-color: #d4eaf7;
+    color: #48cae4;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .paragOp1 {
+    position: absolute;
+    top: 80px;
+  }
+
+  .paragOp2 {
+    position: absolute;
+    top: 124px;
+  }
+
+  .paragrafoResult {
+    width: 60%;
+    margin-top: 3%;
+  }
+
+  .imgResult {
+    margin-top: 1%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .aviso-paisagem {
+    display: block;
+    background: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .conteudo {
+    display: none;
+  }
+}
+/* 
+@media screen and (orientation: landscape) {
+  .aviso-paisagem {
+    display: none;
+  }
+
+  #start h2 {
+    width: 9.688rem;
+    height: 3.125rem;
+    font-size: 22px;
+    padding-left: 12px;
+  }
+
+  p {
+    width: 25rem;
+  }
+
+  #containerBar {
+    position: absolute;
+    left: 470px;
+    top: 17px;
+  }
+
+  #btnChapter1 {
+    position: absolute;
+    top: 130px;
+  }
+
+  .imgGame {
+    width: 30rem;
+    height: 12rem;
+    margin-top: 1px;
+  }
+
+  #btnOp1Cap1 {
+    position: absolute;
+    top: 260px;
+  }
+
+  #btnOp2Cap1 {
+    position: absolute;
+    top: 260px;
+  }
+
+  #imgOption2Cap1 {
+    margin-top: 15px;
+  }
+
+  #imgChapter1 {
+    margin-top: 35px;
+  }
+
+  #btnChapter2Op1 {
+    position: absolute;
+    top: 130px;
+  }
+
+  #btnChapter2Op2 {
+    position: absolute;
+    top: 95px;
+  }
+
+  #btnOp1Cap2 {
+    position: absolute;
+    top: 165px;
+  }
+
+  #imgOption1Cap2 {
+    margin-top: 20px;
+  }
+
+  #btnOp2Cap2 {
+    position: absolute;
+    top: 165px;
+  }
+
+  #imgOption2Cap2 {
+    margin-top: 25px;
+  }
+
+  #imgChapter2 {
+    margin-top: 27px;
+  }
+
+  #btnChapter3Op1 {
+    position: absolute;
+    top: 95px;
+  }
+
+  #btnChapter3Op2 {
+    position: absolute;
+    top: 75px;
+  }
+
+  #btnOp1Cap3 {
+    position: absolute;
+    top: 150px;
+  }
+
+  #btnOp2Cap3 {
+    position: absolute;
+    top: 150px;
+  }
+
+  #imgChapter3 {
+    margin-top: 29px;
+  }
+
+  #btnChapter4Op1 {
+    position: absolute;
+    top: 75px;
+  }
+
+  #btnChapter4Op2 {
+    position: absolute;
+    top: 75px;
+  }
+
+  #imgOption1Cap3 {
+    margin-top: 30px;
+  }
+
+  #imgOption2Cap3 {
+    margin-top: 30px;
+  }
+
+  #btnOp1Cap4 {
+    position: absolute;
+    top: 185px;
+  }
+
+  #imgOption1Cap4 {
+    margin-top: 25px;
+  }
+
+  #btnOp2Cap4 {
+    position: absolute;
+    top: 185px;
+  }
+
+  #imgOption2Cap4 {
+    margin-top: 25px;
+  }
+
+  #imgChapter4 {
+    margin-top: 30px;
+  }
+
+  #btnFinalOp1 {
+    position: absolute;
+    top: 75px;
+  }
+
+  #btnFinalOp2 {
+    position: absolute;
+    top: 75px;
+  }
+
+  .imgResult {
+    margin-top: 120px;
+  }
+} */
